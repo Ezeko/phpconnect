@@ -1,0 +1,24 @@
+<?php
+// host name
+$host = "fdb20.awardspace.net";
+
+//host username
+$host_username = "2777390_ezekoconcept";
+
+//host password
+$host_password ="1234ezeko";
+
+//connected database 
+$db = "2777390_ezekoconcept";
+
+//connection code
+$conn = new mysqli($host, $host_username, $host_password,$db);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+else {
+//echo ("Database connected successfully");
+}
+?>
